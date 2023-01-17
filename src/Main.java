@@ -137,7 +137,7 @@ class Main {
         int highscore = -1;
         String tempName;
 
-        File myFile = new File("scoreboard.txt"); // Should change path to absolute path on user's computer
+        File myFile = new File("src/scoreboard.txt");
 
         //read from file
         Scanner myReader = new Scanner (myFile);
